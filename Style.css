@@ -5,20 +5,21 @@ body {
     background-color: #ccc;
     font-family: 'Roboto Condensed', sans-serif;
     position: relative;
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
   
  } 
   
   ul {
     position:relative;
-    top:40%;
-    left:50%;
+    top:45%;
+    left:60%;
     transform:translate(-50%, -50%);
-    display:flex;
+    /* display:flex; */
     margin:0;
     padding: 0;
   }
-  
+
+
   ul li {
     list-style:none;
     margin:0 5px;
@@ -112,23 +113,23 @@ body {
     background: #38e073;
   }
   
-  ul li:hover:nth-child(3) a{
+  ul li:hover:nth-child(4) a{
     background: #ffff33;
   }
-  ul li:hover:nth-child(3) a:before{
+  ul li:hover:nth-child(4) a:before{
     background: #FFFF00;
   }
-  ul li:hover:nth-child(3) a:after{
+  ul li:hover:nth-child(4) a:after{
     background: #ffff80;
   }
 
-  ul li:hover:nth-child(4) a{
+  ul li:hover:nth-child(3) a{
     background: #999999;
   }
-  ul li:hover:nth-child(4) a:before{
+  ul li:hover:nth-child(3) a:before{
     background: #6f42c1;
   }
-  ul li:hover:nth-child(4) a:after{
+  ul li:hover:nth-child(3) a:after{
     background: #8965cd;
   }
 
@@ -139,7 +140,7 @@ body {
   h1{
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       position: relative ;
-      left: 40%;
+      left: 30%;
       top: 0%;
   }
 
