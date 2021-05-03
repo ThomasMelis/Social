@@ -2,8 +2,9 @@
 body {
     margin:0;
     padding:0;
-    background:#ccc;
+    background-color: #ccc;
     font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden; /* Hide scrollbars */
   
   }
   
@@ -90,7 +91,7 @@ body {
   }
   
   ul li:hover:nth-child(1) a{
-    background: #c2c2c2;
+    background: #33b8ff;
   }
   ul li:hover:nth-child(1) a:before{
     background: #0077b5;
@@ -110,7 +111,7 @@ body {
   }
   
   ul li:hover:nth-child(3) a{
-    background: #FFFF00;
+    background: #ffff33;
   }
   ul li:hover:nth-child(3) a:before{
     background: #FFFF00;
@@ -120,7 +121,7 @@ body {
   }
 
   ul li:hover:nth-child(4) a{
-    background: #b3b3b3;
+    background: #999999;
   }
   ul li:hover:nth-child(4) a:before{
     background: #6f42c1;
@@ -134,7 +135,28 @@ body {
   }
 
   h1{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       position: relative ;
       left: 45%;
       top: 20%;
+  }
+
+  h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: relative ;
+    left: 35%;
+    top: 80%;
+  }
+
+  .snapScore{
+      border-radius: 100px;
+      position: absolute;
+      left:35%;
+      top:15%;
+  }
+
+  .SnapOpmaak{
+      background-color: #999999;
+
   }
