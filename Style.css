@@ -130,13 +130,13 @@ body {
   }
 
   ul li:hover:nth-child(5) a{
-    background: #FFFF00;
+    background: #b3b3b3;
   }
   ul li:hover:nth-child(5) a:before{
-    background: #FFFF00;
+    background: #6f42c1;
   }
   ul li:hover:nth-child(5) a:after{
-    background: #ffff80;
+    background: #8965cd;
   }
 
   img{
